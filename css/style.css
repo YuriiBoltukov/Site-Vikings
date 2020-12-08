@@ -434,6 +434,7 @@ ul{
         background-color: transparent;
         border: none;
         padding: 0;
+        outline: none;
     }
     .menu__btn span{
         background-color: #fff;
