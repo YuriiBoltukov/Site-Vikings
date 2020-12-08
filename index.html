@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -39,11 +40,11 @@
         </li>
       </ul>
     </nav>
-    <div class="logo">
+    <div class="logo animate__animated animate__bounce animate__delay-.5s animate__repeat-3">
       <img class="logo__img" src="images/logo.png" alt="Логотип">
     </div>
   </header>
-  <section class="about section-page">
+  <section class="about section-page wow animate__animated animate__wobble" data-wow-offset="500">
     <div class="container">
       <h3 class="title">
         О сериале
@@ -89,9 +90,9 @@
       </div>
     </div>
   </section>
-  <section class="video">
+  <section class="video wow animate__animated animate__bounceInUp" data-wow-offset="400">
     <div class="container">
-      <h3 class="video__text">
+      <h3 class="video__text wow animate__animated animate__fadeInLeft" data-wow-offset="600">
         <span>The Storm</span> 
         Is Coming...
       </h3>
@@ -104,28 +105,28 @@
       Все сезоны
     </h3>
     <ol class="seasons__inner">
-      <li class="seasons__item" style="background-image: url('./images/seasons-image-1.jpg');">
+      <li class="seasons__item animate__animated animate__fadeInDown wow"  data-wow-offset="400" style="background-image: url('./images/seasons-image-1.jpg');">
         <a href="season-1.html" class="seasons__link">Смотреть</a>
       </li>
-      <li class="seasons__item" style="background-image: url('./images/seasons-image-2.jpg');">
+      <li class="seasons__item animate__animated animate__fadeInDown animate__delay-1s wow"  data-wow-offset="400" style="background-image: url('./images/seasons-image-2.jpg');">
         <a href="#" class="seasons__link">Смотреть</a>
       </li>
-      <li class="seasons__item" style="background-image: url('./images/seasons-image-3.jpg');">
+      <li class="seasons__item animate__animated animate__fadeInDown animate__delay-2s wow"  data-wow-offset="400" style="background-image: url('./images/seasons-image-3.jpg');">
         <a href="#" class="seasons__link">Смотреть</a>
       </li>
-      <li class="seasons__item" style="background-image: url('./images/seasons-image-4.jpg');">
+      <li class="seasons__item animate__animated animate__fadeInDown animate__delay-3s wow"  data-wow-offset="300" style="background-image: url('./images/seasons-image-4.jpg');">
         <a href="#" class="seasons__link">Смотреть</a>
       </li>
-      <li class="seasons__item" style="background-image: url('./images/seasons-image-5.jpg');">
+      <li class="seasons__item animate__animated animate__fadeInDown animate__delay-4s wow"  data-wow-offset="300" style="background-image: url('./images/seasons-image-5.jpg');">
         <a href="#" class="seasons__link">Смотреть</a>
       </li>
-      <li class="seasons__item" style="background-image: url('./images/seasons-image-6.jpg');">
+      <li class="seasons__item animate__animated animate__fadeInDown animate__delay-5s wow"  data-wow-offset="300" style="background-image: url('./images/seasons-image-6.jpg');">
         <a href="#" class="seasons__link">Смотреть</a>
       </li>
     </ol>
   </div>
 </section>
-<section class="heroes section-page">
+<section class="heroes section-page animate__animated animate__fadeInDown animate__delay-1s wow"  data-wow-offset="300">
   <div class="container">
     <h3 class="title">Главные герои</h3>
     <div class="heroes__inner">
@@ -215,6 +216,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
+  <script src="./js/libs.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
