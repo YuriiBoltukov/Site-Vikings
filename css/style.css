@@ -448,6 +448,7 @@ ul{
         height: 5px;
         background-color: #fff;
         position: absolute;
+        outline: none;
     }
     .menu__btn::before{
         top: 0;
