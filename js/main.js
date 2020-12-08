@@ -2,6 +2,7 @@
 $(function () {
     $('.menu__btn').on('click', function () {
             $('.menu__list').toggleClass('menu__list--active');
+            $('.menu').toggleClass('menu--active');
     });
     $('.heroes__slider-img').slick({
             slidesToShow: 1,

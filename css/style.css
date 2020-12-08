@@ -436,6 +436,7 @@ ul{
         border: none;
         padding: 0;
         outline: none;
+        transition: all .3s;
     }
     .menu__btn span{
         background-color: #fff;
@@ -450,6 +451,7 @@ ul{
         background-color: #fff;
         position: absolute;
         outline: none;
+        transition: all .3s;
     }
     .menu__btn::before{
         top: 0;
@@ -458,12 +460,22 @@ ul{
     .menu__btn::after{
         bottom: 0;
         left: 0;
-
+    }
+    .menu--active .menu__btn{
+        transform: rotate(-135deg);
+        transition: all .3s;
+    }
+    .menu--active .menu__btn::before{
+        transform: rotate(90deg);
+        top: 17px;
+        transition: all .3s;
+    }
+    .menu--active .menu__btn::after{
+        display: none;
     }
     .page-header{
         height: 160vh;
     }
-
 }
 @media (max-width: 414px){
     .seasons__item{
